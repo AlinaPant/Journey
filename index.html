@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>book</title>
+
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+
+	<link href="jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script> window.jQuery || document.write('<script src="js/jquery-2.1.0.min.js"><\/script>') </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.booklet.latest.js"></script>	
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="journey">
+		<div id="book">
+			<div>
+					<div class="front_page">
+						<h1 class="title">Journey</h1>
+						<h2>of<br>#DailyCssImages</h2>
+					</div>
+			</div>
+			<div>
+					<h3 class="title_day">Day01</h3>
+					<p class="desc">Bear Cub</p>
+			</div>
+			<div>
+					<div class="project_img"></div>
+			</div>
+			<div>
+					<h3 class="title_day">Day02</h3>
+					<p class="desc">Elephant</p>
+			</div>
+			<div>
+					<div class="project_img"></div>
+			</div>
+			<div>
+					<h3 class="title_day">Day03</h3>
+					<p class="desc">Beaver</p>
+			</div>
+			<div>
+					<div class="project_img"></div>
+			</div>
+			<div>
+					<h3 class="title_day">Day04</h3>
+					<p class="desc">Tiger</p>
+			</div>
+			<div>
+					<div class="project_img"></div>
+			</div>
+			<div>
+					<h3 class="title_day">Day05</h3>
+					<p class="desc">Favorite Animated Animal</p>
+			</div>
+			<div>
+					<div class="project_img"></div>
+			</div>
+			<div>
+					<h3>last</h3>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(function() {
+			$("#book").booklet();
+		});		
+	</script>
+</body>
+</html>

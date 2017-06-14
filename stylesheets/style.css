@@ -1,0 +1,98 @@
+/* white */
+/* purple */
+/* rose */
+/* peach */
+/* gray-black*/
+/* line 12, ../sass/style.scss */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, ../sass/style.scss */
+body {
+  width: 100%;
+  min-height: 100%;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #3A1C71;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3A1C71), color-stop(#D76D77), to(#FFAF7B));
+  background: -webkit-linear-gradient(bottom, #3A1C71, #D76D77, #FFAF7B);
+  background: -moz-linear-gradient(bottom, #3A1C71, #D76D77, #FFAF7B);
+  background: -o-linear-gradient(bottom, #3A1C71, #D76D77, #FFAF7B);
+  background: linear-gradient(to top, #3A1C71, #D76D77, #FFAF7B);
+  color: #40484b;
+  letter-spacing: .8px;
+  overflow-x: hidden;
+}
+
+/* line 37, ../sass/style.scss */
+a {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 43, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+/* line 49, ../sass/style.scss */
+.journey {
+  position: relative;
+  top: 50px;
+}
+
+/* line 54, ../sass/style.scss */
+.front_page {
+  position: relative;
+}
+/* line 57, ../sass/style.scss */
+.front_page h2 {
+  position: relative;
+  top: .5em;
+  left: 6.8em;
+  font-size: 1em;
+}
+
+/* line 65, ../sass/style.scss */
+.title {
+  position: relative;
+  top: 1em;
+  left: -2em;
+  text-transform: uppercase;
+  color: #FFF5EE;
+  font-family: "Raleway", sans-serif;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 78, ../sass/style.scss */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 200%;
+  background: #D76D77;
+  z-index: -1;
+  top: -1.39em;
+  right: -1.5em;
+}
+
+/* line 90, ../sass/style.scss */
+.project_img {
+  width: auto;
+  height: 400px;
+  background: url(../days-img/day-1.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+}
