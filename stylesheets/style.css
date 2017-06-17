@@ -1,16 +1,17 @@
 /* white */
 /* purple */
+/* purple */
 /* rose */
 /* peach */
 /* gray-black*/
-/* line 12, ../sass/style.scss */
+/* line 4, ../sass/style.scss */
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 body {
   width: 100%;
   min-height: 100%;
@@ -18,48 +19,51 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background: #3A1C71;
-  background: -webkit-gradient(linear, left bottom, left top, from(#3A1C71), color-stop(#D76D77), to(#FFAF7B));
-  background: -webkit-linear-gradient(bottom, #3A1C71, #D76D77, #FFAF7B);
-  background: -moz-linear-gradient(bottom, #3A1C71, #D76D77, #FFAF7B);
-  background: -o-linear-gradient(bottom, #3A1C71, #D76D77, #FFAF7B);
-  background: linear-gradient(to top, #3A1C71, #D76D77, #FFAF7B);
+  background-color: #eb8e79;
+  /* Fallback */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFAF7B), to(#D76D77));
+  background-image: -webkit-linear-gradient(top, #FFAF7B, #D76D77);
+  background-image: -moz-linear-gradient(top, #FFAF7B, #D76D77);
+  background-image: -o-linear-gradient(top, #FFAF7B, #D76D77);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='$from-color', EndColorStr='$to-color')";
   color: #40484b;
   letter-spacing: .8px;
   overflow-x: hidden;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 a {
   display: inline-block;
   text-decoration: none;
   outline: none;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 h1, h2, h3, h4, h5, h6 {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .journey {
   position: relative;
   top: 50px;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .front_page {
   position: relative;
 }
-/* line 57, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .front_page h2 {
   position: relative;
   top: .5em;
   left: 6.8em;
   font-size: 1em;
+  color: #3A1C71;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .title {
   position: relative;
   top: 1em;
@@ -69,30 +73,316 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
-/* line 78, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .title::before {
   content: "";
   position: absolute;
   width: 150%;
   height: 200%;
-  background: #D76D77;
+  background: #3A1C71;
   z-index: -1;
   top: -1.39em;
   right: -1.5em;
 }
 
-/* line 90, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
+.title_day {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg) translate(-50%, -50%);
+  -moz-transform: rotate(-90deg) translate(-50%, -50%);
+  -o-transform: rotate(-90deg) translate(-50%, -50%);
+  -ms-transform: rotate(-90deg) translate(-50%, -50%);
+  transform: rotate(-90deg) translate(-50%, -50%);
+}
+
+/* line 83, ../sass/style.scss */
+.desc {
+  text-align: center;
+}
+
+/* line 87, ../sass/style.scss */
 .project_img {
   width: auto;
   height: 400px;
-  background: url(../days-img/day-1.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_1 {
+  background-image: url(../days-img/day-1.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_2 {
+  background-image: url(../days-img/day-2.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_3 {
+  background-image: url(../days-img/day-3.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_4 {
+  background-image: url(../days-img/day-4.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_5 {
+  background-image: url(../days-img/day-5.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_6 {
+  background-image: url(../days-img/day-6.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_7 {
+  background-image: url(../days-img/day-7.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_8 {
+  background-image: url(../days-img/day-8.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_9 {
+  background-image: url(../days-img/day-9.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_10 {
+  background-image: url(../days-img/day-10.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_11 {
+  background-image: url(../days-img/day-11.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_12 {
+  background-image: url(../days-img/day-12.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_13 {
+  background-image: url(../days-img/day-13.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_14 {
+  background-image: url(../days-img/day-14.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_15 {
+  background-image: url(../days-img/day-15.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_16 {
+  background-image: url(../days-img/day-16.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_17 {
+  background-image: url(../days-img/day-17.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_18 {
+  background-image: url(../days-img/day-18.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_19 {
+  background-image: url(../days-img/day-19.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_20 {
+  background-image: url(../days-img/day-20.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_21 {
+  background-image: url(../days-img/day-21.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_22 {
+  background-image: url(../days-img/day-22.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_23 {
+  background-image: url(../days-img/day-23.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_24 {
+  background-image: url(../days-img/day-24.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_25 {
+  background-image: url(../days-img/day-25.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_26 {
+  background-image: url(../days-img/day-26.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_27 {
+  background-image: url(../days-img/day-27.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_28 {
+  background-image: url(../days-img/day-28.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_29 {
+  background-image: url(../days-img/day-29.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_30 {
+  background-image: url(../days-img/day-30.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_31 {
+  background-image: url(../days-img/day-31.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_32 {
+  background-image: url(../days-img/day-32.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_33 {
+  background-image: url(../days-img/day-33.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_34 {
+  background-image: url(../days-img/day-34.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_35 {
+  background-image: url(../days-img/day-35.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_36 {
+  background-image: url(../days-img/day-36.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_37 {
+  background-image: url(../days-img/day-37.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_38 {
+  background-image: url(../days-img/day-38.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_39 {
+  background-image: url(../days-img/day-39.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_40 {
+  background-image: url(../days-img/day-40.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_41 {
+  background-image: url(../days-img/day-41.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_42 {
+  background-image: url(../days-img/day-42.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_43 {
+  background-image: url(../days-img/day-43.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_44 {
+  background-image: url(../days-img/day-44.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_45 {
+  background-image: url(../days-img/day-45.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_46 {
+  background-image: url(../days-img/day-46.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_47 {
+  background-image: url(../days-img/day-47.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_48 {
+  background-image: url(../days-img/day-48.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_49 {
+  background-image: url(../days-img/day-49.png);
+}
+
+/* line 95, ../sass/style.scss */
+.project_img_50 {
+  background-image: url(../days-img/day-50.png);
+}
+
+/* line 100, ../sass/style.scss */
+.figure {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 20%;
+  height: 60%;
+  background: #3A1C71;
+}
+
+/* line 109, ../sass/style.scss */
+.autor {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  font-size: .6em;
+  line-height: 1.8;
 }
